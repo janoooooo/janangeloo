@@ -1,0 +1,228 @@
+body {
+  background-color: beige;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 0;
+	grid-gap: 10px;
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+a {
+	text-decoration: none;
+	list-style: none;
+	color: mintcream;
+}
+
+.header a:hover {
+	color: papayawhip;
+}
+		
+li {
+	font-family: Gill Sans Extrabold, sans-serif;
+	background: MediumSeaGreen ;
+	padding: 25px;
+	text-align: center;
+	list-style: none;
+	font-size: 25px;
+	border: 5px grey solid;
+	font-weight: bold;
+	box-shadow: 10px 10px 10px grey;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+	
+.header li:hover {
+	background: linear-gradient(to right, skyblue 0%, yellowgreen 100%);
+	border: 5px white solid;
+}
+
+.food {
+	margin-left: 400px;
+	margin-right: 500px;
+	width: 400px;
+	background-color: yellowgreen;
+	margin-top: 100px;
+	border: 5px grey solid;
+	box-shadow: 5px 5px 5px grey;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: DejaVu Sans Mono, monospace;
+	font-size: 50px;
+}
+
+.food1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+	margin-top: 50px;
+}
+
+.picture {
+	background-image: url(picture1.jpg);
+	background-size: cover;
+	margin-top: 40px;
+	margin-right: 50px;
+	border: 6px tan solid;
+	box-shadow: 5px 5px 5px grey;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	height: 50vh;
+	margin-left: 20px;
+}
+
+.names {
+	padding: 50px;
+	background-color: OliveDrab;
+	margin-top: 40px;
+	margin-right: 20px;
+	border: 10px tan solid;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.names2 {
+	padding: 50px;
+	background-color: OliveDrab;
+	margin-top: 40px;
+	margin-right: 20px;
+	border: 10px tan solid;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.names3 {
+	padding: 50px;
+	background-color: OliveDrab;
+	margin-top: 40px;
+	margin-right: 20px;
+	border: 10px tan solid;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.names4 {
+	padding: 50px;
+	background-color: OliveDrab;
+	margin-top: 40px;
+	margin-right: 20px;
+	border: 10px tan solid;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.names5 {
+	padding: 50px;
+	background-color: OliveDrab;
+	margin-top: 40px;
+	margin-right: 20px;
+	border: 10px tan solid;
+	box-shadow: 5px 5px 5px grey;
+}
+
+p {
+	margin-top: 105px;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-family: Herculanum, fantasy;
+}
+
+.food2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+}
+
+.picture2 {
+	background-image: url(picture2.jpg);
+	background-size: cover;
+	margin-top: 40px;
+	margin-right: 50px;
+	border: 6px tan solid;
+	box-shadow: 5px 5px 5px grey;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	height: 50vh;
+	background-position: center;
+	margin-left: 20px;
+}
+
+.food3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+}
+
+.picture3 {
+	background-image: url(picture3.jpg);
+	background-size: cover;
+	margin-top: 40px;
+	margin-right: 50px;
+	border: 6px tan solid;
+	box-shadow: 5px 5px 5px grey;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	height: 50vh;
+	background-position: center;
+	margin-left: 20px;
+}
+
+.food4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+}
+
+.picture4 {
+	background-image: url(picture4.jpg);
+	background-size: cover;
+	margin-top: 40px;
+	margin-right: 50px;
+	border: 6px tan solid;
+	box-shadow: 5px 5px 5px grey;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	height: 50vh;
+	background-position: center;
+	margin-left: 20px;
+}
+
+.food5 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+}
+
+.picture5 {
+	background-image: url(picture5.jpg);
+	background-size: cover;
+	margin-top: 40px;
+	margin-right: 50px;
+	border: 6px tan solid;
+	box-shadow: 5px 5px 5px grey;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	height: 50vh;
+	background-position: center;
+	margin-left: 20px;
+}
+
+.footer {
+	margin-top: 50px;
+	padding: 15px;
+	background: linear-gradient(to right, lightgreen 0%, sandybrown 100%);
+	border-radius: 10px;
+	border: 5px lightgrey solid;
+	box-shadow: 5px 5px 5px grey;
+}
+
+h2 {
+	color: grey;
+	text-align: center;
+	font-size: 35px;
+	font-family: Harrington, fantasy;
+}

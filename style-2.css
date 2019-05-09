@@ -1,0 +1,147 @@
+body {
+  background-color: beige;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 0;
+	grid-gap: 10px;
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+a {
+	text-decoration: none;
+	list-style: none;
+	color: mintcream;
+}
+
+.header a:hover {
+	color: papayawhip;
+}
+		
+li {
+	font-family: Gill Sans Extrabold, sans-serif;
+	background: SeaGreen ;
+	padding: 25px;
+	text-align: center;
+	list-style: none;
+	font-size: 25px;
+	border: 5px grey solid;
+	font-weight: bold;
+	box-shadow: 10px 10px 10px grey;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+	
+.header li:hover {
+	background: linear-gradient(to right, skyblue 0%, yellowgreen 100%);
+	border: 5px white solid;
+}
+
+.place {
+	display; grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 5px;
+	background-color: DarkSeaGreen;
+	border: 5px white solid;
+	width: 300px;
+	margin-top: 100px;
+	margin-left: 100px;
+	box-shadow: 5px 5px 5px grey;
+}
+
+h1 {
+	font-size: 40px;
+	color: white;
+	font-family: DejaVu Sans Mono, monospace;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+.pictures {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.picture1 {
+	background-image: url(resto.jpg);
+	height: 40vh;
+	margin-top: 40px;
+	margin-left: 50px;
+	border: 6px tan solid;
+	box-shadow: 5px 5px 5px grey;
+	border-radius: 20px;
+}
+
+.picture2 {
+	background-image: url(gurl.jpg);
+	background-size: cover;
+	margin-top: 40px;
+	margin-right: 50px;
+	border: 6px tan solid;
+	box-shadow: 5px 5px 5px grey;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+
+.description {
+	background-color: olivedrab;
+	padding: 30px;
+	border: 5px white dashed;
+	margin-top: 50px;
+}
+
+p {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: Nimbus Sans L, sans-serif;
+}
+
+.picture {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.wood1 {
+	background-image: url(wood.jpg);
+	height: 40vh;
+	margin-top: 40px;
+	margin-left: 50px;
+	border: 6px tan solid;
+	box-shadow: 5px 5px 5px grey;
+	border-radius: 20px;
+}
+
+.wood2 {
+	background-image: url(wood2.jpg);
+	background-size: cover;
+	margin-top: 40px;
+	margin-right: 50px;
+	border: 6px tan solid;
+	box-shadow: 5px 5px 5px grey;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+
+.footer {
+	margin-top: 50px;
+	padding: 15px;
+	background: linear-gradient(to right, lightgreen 0%, sandybrown 100%);
+	border-radius: 10px;
+	border: 5px lightgrey solid;
+	box-shadow: 5px 5px 5px grey;
+}
+
+h2 {
+	color: grey;
+	text-align: center;
+	font-size: 35px;
+	font-family: Harrington, fantasy;
+}
